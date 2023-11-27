@@ -35,7 +35,7 @@ And that's why I want to learn more about them.""")
 
 nl()
 
-#I am going for breakfast, after which I will build a calculator.
+#Let's build a calculator
 
 print("Time to Build Some Stuff")
 nl()
