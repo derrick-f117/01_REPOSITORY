@@ -145,5 +145,29 @@ def q1Physics():
     elif q1pa != ans1pa and q1pb != ans1pb and q1pc == ans1pc:
         nl()
         print(f"""Part one and part two are both incorrect. The correct respective answers are:
-            \"{}\"
-            \"\"""")
+            \"{ans1pa}\"
+            \"{ans1pb}\"""")
+        nl()
+    elif q1pa == ans1pa and q1pb != ans1pb and q1pc != ans1pc:
+        nl()
+        print(f"""Part two and part three are both incorrect. The correct respective answers are:
+            \"{ans1pb}\"
+            \"{ans1pc}\"""")
+        nl()
+    elif q1pa != ans1pa and q1pb == ans1pb and q1pc != ans1pc:
+        nl()
+        print(f"""Part one and part three are both incorrect. The correct respective answers are:
+            \"{ans1pa}\"
+            \"{ans1pc}\"""")
+        nl()
+    else:
+        nl()
+        print(f"""Like seriously, you got nothing right! The correct answers respectively are:
+            \"{ans1pa}\"
+            \"{ans1pb}\"
+            \"{ans1pc}\"""")
+        nl()
+        print("Let's try sth else.")
+        nl()
+
+q1Physics()
