@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="author" content="Derrick">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>02_SITE</title>
+		<style>
+			
+			@keyframes bounce {
+				0% {
+					transform: translateY(0px)
+				}
+				100% {
+					transform: translateY(400px)
+				}
+			}
+			
+			body {
+				max-width: 600px;
+				max-height: 800px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: whitesmoke;
+				border: 2px solid black;
+			}
+			
+			.ball {
+				height: 50px;
+				width: 50px;
+				border-radius: 50%;
+				background-color: red;
+				justify-self: center;
+				align-self: baseline;
+				border: 1px solid black;
+				animation: bounce 1s alternate infinite;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="ball"></div>
+	</body>
+</html>
