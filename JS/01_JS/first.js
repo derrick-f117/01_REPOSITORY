@@ -1,9 +1,4 @@
 ﻿//JavaScript File
-
-var myAge = 17;
-const myName = "Derrick Abuga";
-
-
-
-console.log(myAge);
-console.log(myName);
+var myVar;
+myVar = "Hello, World!";
+console.log(myVar);
